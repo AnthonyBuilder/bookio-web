@@ -124,20 +124,6 @@ nav {
     height: 22vw;
 }
 
-.actions-card-product {
-    margin: 10px;
-}
-
-.btn-alugar-crd {
-    color: #858585;
-    font-size: 1.5vw;
-    border: none;
-    background: #5c5c5c;
-    padding: 3px 13px;
-    border-radius: 5px;
-    box-shadow: 0 4px 15px -8px;
-}
-
 
 .carousel img {
     object-fit: cover;
