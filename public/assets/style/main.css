@@ -4,18 +4,36 @@
 }
 
 
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(190, 190, 190, 0.753);
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(82, 82, 82);
+}
+
 nav {
-    background-color: #b7b7b7;
+    background-color: #1b1b1b;
     position: fixed;
     width: 100%;
     z-index: 1;
+
 }
 
 .ul-nav-main {
     display: -webkit-box;
     list-style: none;
-    font-size: 0.9vw;
+    font-size: 0.6vw;
     font-family: "SF Compact Display Thin";
+        box-shadow: 0 1px 20px -5px;
+
 }
 
 .ul-nav-main li {
@@ -24,30 +42,64 @@ nav {
 
 .nav-itm-title {
     font-family: "SF Compact Display Medium";
-    color: #3c3c3c;
+    color: #cecece;
 }
 
 .nav-itm {
-    color: #3c3c3c;
+    color: #9b9b9b;
     transition: 400ms;
 }
 
 .nav-itm:hover {
     cursor: pointer;
     transform: translateY(-5px);
-    color: #000000;
+    color: #c5c5c5;
 }
 
 
 .container-products {
-    background: #3c3c3c;
+    background: #f0f0f0;;
     width: 100%;
     position: relative;
     top: 24px;
 }
 
-.wrapper-row-products {
+.wrapper {
     margin: 0 11vw;
+}
+
+
+.post-livro {
+    position: relative;
+    top: 95px;
+}
+
+.wrapper-form-b {
+    padding: 140px 0;
+}
+
+.form-book {
+    padding: 21px 0;
+}
+
+.in-b-form {
+    width: 28.7%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    border: 1.2px solid #4a4a4a;
+    background: #333333;
+    color: #e4e4e4;
+}
+
+.in-b-form:nth-child(3) {
+    font-size: 1.1vw
+}
+
+.in-b-form button {
+    display: none;
+    background: #111;
 }
 
 .title-products-container {
@@ -114,7 +166,8 @@ nav {
 }
 
 .content-card-product:hover {
-    filter: brightness(60%);
+    filter: brightness(110%);
+    transform: scale(1.05, 1.05);
 }
 
 .card-product-book img {
@@ -124,7 +177,52 @@ nav {
     height: 22vw;
 }
 
-
 .carousel img {
     object-fit: cover;
+}
+
+.marcas {
+    top: 145px;
+    position: relative;
+    padding-bottom: 321px;
+}
+
+.card-marcas {
+   padding: 10px;
+border-radius: 10px;
+margin: 10px;
+width: 6.4vw;
+}
+
+.content-img img {
+object-fit: contain;
+
+width: 8vw;
+
+border-radius: 12px;
+
+height: 6.2vw;
+
+background: #e3e3e3;
+transition: 100ms;
+
+box-shadow: 0 1px 20px -20px;
+}
+
+.content-img img:hover {
+   background: rgb(172, 172, 172);
+   box-shadow: 0 1px 20px -10px;
+}
+
+.ul-fluid {
+    list-style: none;
+    display: -webkit-inline-box;
+    width: 100%;
+    background: ;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.ul-fluid li {
+    
 }
