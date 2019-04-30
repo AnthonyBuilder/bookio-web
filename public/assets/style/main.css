@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: #b7b7b7;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.ul-nav-main {
+    display: -webkit-box;
+    list-style: none;
+    font-size: 0.9vw;
+    font-family: "SF Compact Display Thin";
+}
+
+.ul-nav-main li {
+    margin: 10px;
+}
+
+.nav-itm-title {
+    font-family: "SF Compact Display Medium";
+    color: #3c3c3c;
+}
+
+.nav-itm {
+    color: #3c3c3c;
+    transition: 400ms;
+}
+
+.nav-itm:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    color: #000000;
+}
+
+
+.container-products {
+    background: #3c3c3c;
+    width: 100%;
+    position: relative;
+    top: 24px;
+}
+
+.wrapper-row-products {
+    margin: 0 11vw;
+}
+
+.title-products-container {
+    position: relative;
+    top: 63px;
+    left: 5px;
+    margin-bottom: 60px;
+}
+
+.title-products-container h1 {
+    font-size: 6vw;
+    font-family: "SF Compact Display Thin";
+    color: #b7b7b7;
+    font-weight: 100;
+}
+
+
+.row-products {
+    position: relative;
+    display: grid;
+    gap: 23px;
+    grid-auto-rows: minmax(126px, auto);
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.row-products>* {
+    border-radius: 10px;
+    background-color: #111;
+    margin: 50px 0;
+    width: 100%;
+    padding: 5px;
+}
+
+.card-product-book {
+    transition: 500ms;
+    box-shadow: 0 1px 17px -2px;
+}
+
+.card-product-book:hover {
+    box-shadow: 0 1px 25px -2px;
+    transform: scale(1.05, 1.05);
+}
+
+.title-card-product {
+    font-family: "SF Compact Display Medium";
+    font-size: 0.9vw;
+    margin: 10px;
+}
+
+.title-card-product h1 {
+    color: #cfcfcf;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+.title-card-product h2 {
+    font-family: "SF Compact Display Thin";
+    color: #979797;
+}
+
+.content-card-product {
+    transition: 500ms;
+}
+
+.content-card-product:hover {
+    filter: brightness(60%);
+}
+
+.card-product-book img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 22vw;
+}
+
+.actions-card-product {
+    margin: 10px;
+}
+
+.btn-alugar-crd {
+    color: #858585;
+    font-size: 1.5vw;
+    border: none;
+    background: #5c5c5c;
+    padding: 3px 13px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px -8px;
+}
+
+
+.carousel img {
+    object-fit: cover;
+}
