@@ -32,7 +32,7 @@ nav {
     list-style: none;
     font-size: 0.6vw;
     font-family: "SF Compact Display Thin";
-        box-shadow: 0 1px 20px -5px;
+    box-shadow: 0 1px 20px -5px;
 
 }
 
@@ -58,7 +58,8 @@ nav {
 
 
 .container-products {
-    background: #f0f0f0;;
+    background: #f0f0f0;
+    ;
     width: 100%;
     position: relative;
     top: 24px;
@@ -87,10 +88,16 @@ nav {
     padding: 10px;
     margin: 10px;
     font-size: 1.3vw;
-    border-radius: 10px;
-    border: 1.2px solid #4a4a4a;
+    border-radius: 5px;
+    border: none;
     background: #333333;
     color: #e4e4e4;
+    transition: 500ms;
+}
+
+.in-b-form:focus {
+    transform: scale(1.05);
+    background: #717171;
 }
 
 .in-b-form:nth-child(3) {
@@ -135,7 +142,7 @@ nav {
 }
 
 .card-product-book {
-    transition: 500ms;
+    transition: 800ms;
     box-shadow: 0 1px 17px -2px;
 }
 
@@ -162,7 +169,7 @@ nav {
 }
 
 .content-card-product {
-    transition: 500ms;
+    transition: 400ms;
 }
 
 .content-card-product:hover {
@@ -188,30 +195,30 @@ nav {
 }
 
 .card-marcas {
-   padding: 10px;
-border-radius: 10px;
-margin: 10px;
-width: 6.4vw;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 6.4vw;
 }
 
 .content-img img {
-object-fit: contain;
+    object-fit: contain;
 
-width: 8vw;
+    width: 8vw;
 
-border-radius: 12px;
+    border-radius: 12px;
 
-height: 6.2vw;
+    height: 6.2vw;
 
-background: #e3e3e3;
-transition: 100ms;
+    background: #e3e3e3;
+    transition: 100ms;
 
-box-shadow: 0 1px 20px -20px;
+    box-shadow: 0 1px 20px -20px;
 }
 
 .content-img img:hover {
-   background: rgb(172, 172, 172);
-   box-shadow: 0 1px 20px -10px;
+    background: rgb(172, 172, 172);
+    box-shadow: 0 1px 20px -10px;
 }
 
 .ul-fluid {
@@ -223,6 +230,21 @@ box-shadow: 0 1px 20px -20px;
     overflow: auto;
 }
 
-.ul-fluid li {
-    
+.ul-fluid li {}
+
+.btn-send-book {
+    border: none;
+    font-size: 1.5vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #c8c8c8;
+    transition: 500ms;
+    box-shadow: 0 1px 20px -6px black;
+}
+
+.btn-send-book:hover {
+    background: #4b4b4b;
+    box-shadow: 0 1px 20px -6px;
+    color: white;
 }

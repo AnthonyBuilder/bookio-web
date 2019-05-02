@@ -10,14 +10,6 @@
     <link rel="stylesheet" href="assets/style/main.css">
     <link rel="stylesheet" href="assets/fonts/font.css">
 
-    <!--Slick-->
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
-
-    <link rel="stylesheet" href="    https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
-
 </head>
 
 <body>
@@ -91,9 +83,7 @@
                                 </figure>
                             </div>
                         </div>
-
                     </li>
-
 
                     <li>
                         <div class="card-marcas">
@@ -126,8 +116,6 @@
                         </div>
                     </li>
 
-
-
                     <li>
                         <div class="card-marcas">
                             <div class="content-img">
@@ -139,7 +127,27 @@
                         </div>
                     </li>
 
+                    <li>
+                        <div class="card-marcas">
+                            <div class="content-img">
+                                <figure>
+                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
+                                        alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
 
+                    <li>
+                        <div class="card-marcas">
+                            <div class="content-img">
+                                <figure>
+                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
+                                        alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
 
                     <li>
                         <div class="card-marcas">
@@ -163,7 +171,16 @@
                         </div>
                     </li>
 
-
+                    <li>
+                        <div class="card-marcas">
+                            <div class="content-img">
+                                <figure>
+                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
+                                        alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
 
                     <li>
                         <div class="card-marcas">
@@ -176,10 +193,6 @@
                         </div>
                     </li>
 
-
-
-
-
                     <li>
                         <div class="card-marcas">
                             <div class="content-img">
@@ -190,45 +203,6 @@
                             </div>
                         </div>
                     </li>
-
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-
-
                 </ul>
             </div>
         </div>
@@ -240,7 +214,6 @@
                 <h1>Livros para Alugar</h1>
             </div>
             <div class="row-products">
-
                 <div class="card-product-book">
                     <div class="content-card-product">
                         <img src="assets/img/jobs_book.jpg" alt="Steve Jobs">

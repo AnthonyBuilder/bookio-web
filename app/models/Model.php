@@ -6,10 +6,12 @@
      * Modulo de conexão ao driver
      * 
      * @Model - CRUD livros users
+     * @Book - Extend this Model and set table var
      * 
      */
 
     abstract class Model {
+
         protected $connection;
 
         public function __construct() {

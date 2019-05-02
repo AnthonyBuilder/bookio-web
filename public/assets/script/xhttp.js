@@ -29,7 +29,6 @@ function xhttpDelete(url, callback, parameters = '') {
     xhttp.send(parameters);
 }
 
-
 function befforeSend(callback) {
     if (xhttp.readyState < 4) {
         callback();

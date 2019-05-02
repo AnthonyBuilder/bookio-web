@@ -17,4 +17,4 @@
         echo "Não foi possivel publicar o livro";
     }
 
-    ?>
+?>

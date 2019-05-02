@@ -4,7 +4,5 @@
     use app\models\Book;
 
     $book = new Book;
-
-    echo json_encode($book->getBooks);
-
-    ?>
+    echo json_encode($book->getBooks());
+?>
