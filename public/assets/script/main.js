@@ -12,19 +12,20 @@ function createBook() {
     }, formBook);
 }
 
-
-xhttpGet('ajax/get_book', function () {
-    success(function () {
-        var itm_book = JSON.parse(xhttp.responseText);
-        itm_book.forEach((element) => {
-            new constructBook(element.book_name, element.book_price, element.book_img);
+function getBooks(insert) {
+    if (insert === null) {
+        xhttpGet('ajax/get_book', function () {
+            success(function () {
+                var itm_book = JSON.parse(xhttp.responseText);
+                itm_book.forEach((element) => {
+                    new constructBook(element.book_name, element.book_price, element.book_img);
+                });
+            });
         });
-    });
-})
-
+    }
+}
 
 class constructBook {
-
     constructor(b_name, b_price, b_img) {
         div_gen_book.innerHTML +=
             `<div class="card-product-book bk-itm-clear"> 
