@@ -33,8 +33,8 @@
             </li>
             <li>
                 <div class="nav-itm">
-                    <h2>Login</h2>
-                </div>
+                    <a href="http://localhost/bookio-web/public/login_pg/index.php"><h2>Login</h2>
+                </div></a>
             </li>
             <li>
                 <div class="nav-itm">
@@ -352,4 +352,5 @@
 </body>
 <script src="assets/script/main.js"></script>
 <script src="assets/script/xhttp.js"></script>
+<script src="assets/script/bookConstructor.js"></script>
 </html>
