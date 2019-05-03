@@ -14,15 +14,15 @@
    
     <div class="wrapper-login-contents">
          <div class="title-login">
-            <h1>Book.io</h1>
-            <h2>login<h2>
+            <h2 id="title-log" style="font-weight: 100;">login<h2>
+            <h2 id="title-user">Book.io</h2>
         </div>
-        <form id="form_login">
+    
+        <form method="POST" class="form-book">
             <input type="email" name="email_login" id="email-login" class="input-login" placeholder="Email">
             <input type="password" name="pass_login" id="pass-login" class="input-login" placeholder="Senha">
-        
-            <input type="submit" value="Logar" class="btn-logar">
         </form>
+        <input type="button" value="Logar" class="btn-logar" onclick="loginUser();">
     </div>
 
 </body>

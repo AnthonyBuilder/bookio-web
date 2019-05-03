@@ -4,7 +4,6 @@ var clear_doc_itm = document.querySelectorAll('.bk-itm-clear');
 
 function createBook() {
     var formBook = new FormData(form);
-
     xhttpPost('ajax/create_book', function () {
         success(function () {
             console.log(xhttp.responseText);
@@ -12,8 +11,7 @@ function createBook() {
     }, formBook);
 }
 
-function getBooks(insert) {
-
+function getBooks() {
     xhttpGet('ajax/get_book', function () {
         success(function () {
             var itm_book = JSON.parse(xhttp.responseText);
@@ -22,5 +20,4 @@ function getBooks(insert) {
             });
         });
     });
-
 }

@@ -278,72 +278,8 @@
 
                     </div>
                 </div>
-
-                <div class="card-product-book">
-                    <div class="content-card-product">
-                        <img src="assets/img/jobs_book.jpg" alt="Steve Jobs">
-                    </div>
-                    <div class="rw-card-bottom-content">
-                        <div class="title-card-product">
-                            <h1>Steve Jobs</h1>
-                            <h2>By Walter Isaacson</h2>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="card-product-book">
-                    <div class="content-card-product">
-                        <img src="assets/img/jobs_book.jpg" alt="Steve Jobs">
-                    </div>
-                    <div class="rw-card-bottom-content">
-                        <div class="title-card-product">
-                            <h1>Steve Jobs</h1>
-                            <h2>By Walter Isaacson</h2>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="card-product-book">
-                    <div class="content-card-product">
-                        <img src="assets/img/jobs_book.jpg" alt="Steve Jobs">
-                    </div>
-                    <div class="rw-card-bottom-content">
-                        <div class="title-card-product">
-                            <h1>Steve Jobs</h1>
-                            <h2>By Walter Isaacson</h2>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="card-product-book">
-                    <div class="content-card-product">
-                        <img src="assets/img/jobs_book.jpg" alt="Steve Jobs">
-                    </div>
-                    <div class="rw-card-bottom-content">
-                        <div class="title-card-product">
-                            <h1>Steve Jobs</h1>
-                            <h2>By Walter Isaacson</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-product-book">
-                    <div class="content-card-product">
-                        <img src="assets/img/jobs_book.jpg" alt="Steve Jobs">
-                    </div>
-                    <div class="rw-card-bottom-content">
-                        <div class="title-card-product">
-                            <h1>Steve Jobs</h1>
-                            <h2>By Walter Isaacson</h2>
-                        </div>
-
-                    </div>
-                </div>
-
             </div>
+     
 
         </div>
     </div>

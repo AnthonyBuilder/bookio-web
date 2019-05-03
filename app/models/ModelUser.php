@@ -10,17 +10,14 @@
         public function __construct() {
             $this->connection = Connection::connect();
         }
-
-        public function loginUser($i_email, $i_pass) {
-            $sql = 'SELECT * FROM {$this->table} WHERE email_u = :i_em and pass_u = :i_pa';
-            $getUser = $this->connection->prepare($sql);
+        
+        public function getUserDB() {
             
-            $getUser->bindValue(':i_em', i_email);
-            $getUser->bindValue(':i_pa', i_pass);
-
-            $getUser->execute();
-
-            return $getUser->fetchAll();
-
+            $sql = "SELECT email_u, pass_u FROM {$this->table}";
+            
+            $all_users = $this->connection->prepare($sql);
+     
+            $all_users->execute();
+            return $all_users->fetchAll();            
         }
     }
