@@ -4,11 +4,7 @@ function xhttpGet(url, callback, parameters = '') {
     xhttp.onreadystatechange = callback;
     xhttp.open('GET', url + '.php', true);
 
-    if (typeof (parameters) != 'object') {
-        xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-    }
-
-    xhttp.send(parameters);
+    xhttp.send();
 }
 
 function xhttpPost(url, callback, parameters = '') {

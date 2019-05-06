@@ -7,11 +7,10 @@
 
     <link rel="stylesheet" href="style_login/main.css">
     <link rel="stylesheet" href="../assets/fonts/font.css">
-    <title>Document</title>
+    <title>Login - Bookio</title>
 </head>
 <body>
 
-   
     <div class="wrapper-login-contents">
          <div class="title-login">
             <h2 id="title-log" style="font-weight: 100;">login<h2>
