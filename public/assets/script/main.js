@@ -7,6 +7,7 @@ function createBook() {
     xhttpPost('ajax/create_book', function () {
         success(function () {
             console.log(xhttp.responseText);
+            getBooks();
         });
     }, formBook);
 }

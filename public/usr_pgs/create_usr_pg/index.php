@@ -26,6 +26,6 @@
     </div>
 
 </body>
-<script src="script_login/main.js"></script>
+<script src="script_create/main.js"></script>
 <script src="../assets/script/xhttp.js"></script>
 </html>

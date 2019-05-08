@@ -45,19 +45,23 @@
     </nav>
 
     
-    
+    <article>
+        <h1>Book.io</h1>
+        <h2>Um lugar para alugar livros</h2>
+    </article>
+
     <div class="post-livro">
         <div class="container-form-b">
             <div class="wrapper-form-b wrapper">
                 <div class="b-content">
                     <div class="title-products-container">
-                        <h1>Alugue seu Livro</h1>
+                        <h1>Publique seu Livro</h1>
                     </div>
 
                     <iframe style="display:none;" name="sender"></iframe>
                     <form method="POST" name="sender" class="form-book">
                         <input class="in-b-form" type="text" name="b_name_in" placeholder="Nome do livro" />
-                        <input class="in-b-form" type="text" name="b_price_in" placeholder="Preco" />
+                        <input class="in-b-form" type="number" name="b_price_in" placeholder="Preço" min="0.00" max="10000.00" step="any"/>
                         <input class="in-b-form " type="text" name="b_url_img" placeholder="URL Imagem" />
                     </form>
                     <button class="btn-send-book" onclick="createBook()">Enviar</button>
@@ -66,147 +70,6 @@
         </div>
     </div>
 
-    <div class="marcas">
-        <div class="wrapper">
-            <div class="title-products-container">
-                <h1>Marcas</h1>
-            </div>
-
-            <div class="row-marcas-crd">
-                <ul class="ul-fluid">
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2017/site/pagina-de-marcas/intrinseca/images/intrinseca.png"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/faber-castell.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-
-                    </li>
-                    <div class="card-marcas">
-                        <div class="content-img">
-                            <figure>
-                                <img src="https://images.livrariasaraiva.com.br/estatico/2017/site/pagina-de-marcas/cia-das-letras/images/cia-das-letras.png"
-                                    alt="">
-                            </figure>
-                        </div>
-                    </div>
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/livros/rocco.png"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2017/site/pagina-de-marcas/images/sextante.png"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="card-marcas">
-                            <div class="content-img">
-                                <figure>
-                                    <img src="https://images.livrariasaraiva.com.br/estatico/2018/site/widgets/marcas/papelaria/bic.png?sc"
-                                        alt="">
-                                </figure>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
     <div class="container-products">
         <div class="wrapper">
@@ -216,7 +79,11 @@
             <div class="row-products">
                 <div class="card-product-book">
                     <div class="content-card-product">
+                        <div class="title-card-usr-name">
+                            <h2>Anthony José</h2>
+                        </div>
                         <img src="assets/img/jobs_book.jpg" alt="Steve Jobs">
+                        
                     </div>
                     <div class="rw-card-bottom-content">
                         <div class="title-card-product">
