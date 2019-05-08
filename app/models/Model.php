@@ -28,6 +28,7 @@
         }
 
         public function createBooks($book_name, $book_price, $book_img_url) {
+
             $sql = "INSERT INTO {$this->table} (book_name, book_price, book_img) values (:b_name, :b_price, :b_img)";
             $create = $this->connection->prepare($sql);
 
@@ -38,5 +39,6 @@
             $create->execute();
 
             return $this->connection->lastInsertId();
+            
         }
     }

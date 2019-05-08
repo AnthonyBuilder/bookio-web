@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background: #ffeece;
+}
+
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -19,6 +23,30 @@
     background: rgb(82, 82, 82);
 }
 
+a {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
+article {
+    text-align: center;
+    height: 100vh;
+    box-sizing: border-box;
+    border-width: 10px;
+    width: 100%;
+    padding: 50vh;
+    font-size: 1.5vw;
+    background: url(/home/anthony/Documentos/Projetos/Bookio/public/assets/img/wall_books_main.jpeg);
+}
+
+article h1 {
+    font-family: "SF Compact Display Thin";
+}
+
+article h2 {
+    font-family: "SF Compact Display Medium";
+}
+
 nav {
     background-color: #1b1b1b;
     position: fixed;
@@ -26,6 +54,7 @@ nav {
     z-index: 1;
 
 }
+
 
 .ul-nav-main {
     display: -webkit-box;
@@ -42,7 +71,7 @@ nav {
 
 .nav-itm-title {
     font-family: "SF Compact Display Medium";
-    color: #cecece;
+    color: #707070;
 }
 
 .nav-itm {
@@ -58,8 +87,7 @@ nav {
 
 
 .container-products {
-    background: #f0f0f0;
-    ;
+
     width: 100%;
     position: relative;
     top: 24px;
@@ -84,25 +112,25 @@ nav {
 }
 
 .in-b-form {
-    width: 28.7%;
-    padding: 10px;
-    margin: 10px;
-    font-size: 1.3vw;
-    border-radius: 5px;
+    font-size: 1.5vw;
     border: none;
-    background: #333333;
-    color: #e4e4e4;
-    transition: 500ms;
+    background: #ffe4b0;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px -7px;
+    color: #595959;
+    padding: 10px 15px;
+    transition: all .8s cubic-bezier(0.77, 0, 0.175, 1);
+    margin: 0 5px;
+    outline: none;
 }
 
 .in-b-form:focus {
-    transform: scale(1.05);
-    background: #717171;
+    background: #ffd991;
+    color: #1b1b1b;
+    transform: translateY(-5px);
 }
 
-.in-b-form:nth-child(3) {
-    font-size: 1.1vw
-}
+
 
 .in-b-form button {
     display: none;
@@ -119,7 +147,7 @@ nav {
 .title-products-container h1 {
     font-size: 6vw;
     font-family: "SF Compact Display Thin";
-    color: #b7b7b7;
+    color: #3c3c3c;
     font-weight: 100;
 }
 
@@ -137,8 +165,7 @@ nav {
 .card-product-book {
     border-radius: 10px;
     border: none;
-    background-color: #737c88;
-    
+    background-color: #2d2d2d;
     margin: 50px 0;
     width: 100%;
     padding: 5px;
@@ -152,6 +179,18 @@ nav {
     filter: brightness(100%);
     transform: scale(1.06);
 }
+
+.title-card-usr-name {
+    position: absolute;
+    font-size: .8vw;
+    color: #ffffff;
+    background: #969696ed;
+    margin: 9.8px;
+    padding: 0.5vw;
+    border-radius: 10px;
+    font-family: "SF Compact Display Medium";
+}
+
 
 .title-card-product {
     font-family: "SF Compact Display Medium";
@@ -179,7 +218,7 @@ nav {
 .content-card-product:hover {
     filter: brightness(100%);
 
-    
+
     transform: scale(1.04);
 }
 
@@ -187,7 +226,7 @@ nav {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-    height: 22vw;
+    height: 15vw;
 }
 
 .card-product-book img::after {
@@ -196,6 +235,7 @@ nav {
     z-index: -1;
     filter: blur(20px);
 }
+
 .carousel img {
     object-fit: cover;
 }
@@ -237,7 +277,6 @@ nav {
     list-style: none;
     display: -webkit-inline-box;
     width: 100%;
-    background: ;
     border-radius: 10px;
     overflow: auto;
 }
@@ -246,13 +285,15 @@ nav {
 
 .btn-send-book {
     border: none;
+    color: #6bd6ad;
+    background-color: #383838;
     font-size: 1.5vw;
-    padding: 10px;
-    margin: 10px;
+    padding: 6px 12px;
     border-radius: 5px;
-    background: #c8c8c8;
-    transition: 500ms;
-    box-shadow: 0 1px 20px -6px black;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    margin: 40px 10px;
+    box-shadow: 0 3px 10px -7px;
+    outline: none;
 }
 
 .btn-send-book:hover {
