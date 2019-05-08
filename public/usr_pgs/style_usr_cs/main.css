@@ -7,13 +7,14 @@ body {
     transition: .8s;
     background: #ffeece;
 }
+
 .wrapper-login-contents {
     width: 100%;
     text-align: center;
     position: relative;
     top: 30vh;
     font-family: "SF Compact Display Thin";
-    
+
 }
 
 .wrapper-login-contents input {
@@ -37,7 +38,7 @@ body {
     margin: 40px 3px;
 }
 
-.input-login {
+input {
     font-size: 1.5vw;
     border: none;
     background: #ffe4b0;
@@ -48,26 +49,37 @@ body {
     transition: all .8s cubic-bezier(0.77, 0, 0.175, 1);
     margin: 0 5px;
     outline: none;
-} 
+}
 
-.input-login:focus {
-    background: #fcd894;
+.form-book input:focus {
+    background: #ffd991;
     color: #1b1b1b;
     transform: translateY(-5px);
 }
 
-.input-login:invalid {
+.form-book input:invalid {
     background: #ff9393;
+
     color: #0707075d;
 }
 
-.input-login:visited {
-    background-color: hsl(0, 0%, 40%);
+.form-book input:required {
+    background: #ffd991;
+    border: 2px solid #ffbd44;
+    color: #0707075d;
 }
 
-.btn-logar {
+.form-book input:valid {
+    background: #c7ffdab9;
+    border: 2px solid transparent;
+    color: #00a761;
+}
+
+
+
+.btn {
     border: none;
-    background-color: #949494;
+    background-color: #41a9da;
     font-size: 1.5vw;
     padding: 6px 12px;
     border-radius: 5px;
@@ -78,14 +90,13 @@ body {
     color: #00000098;
 }
 
-.btn-logar:focus {
-    color:#8b8b8b;
+.btn:focus {
+    color: #6bd6ad;
     background-color: #383838;
 }
 
-.btn-logar:hover {
-    background-color: #41a9da;
+.btn:hover {
+    background-color: #1cb7ff;
     color: #0000007c;
     cursor: pointer;
 }
-

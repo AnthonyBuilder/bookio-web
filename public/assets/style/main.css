@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background: #ffeece;
+}
+
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -17,6 +21,11 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(82, 82, 82);
+}
+
+a {
+    text-decoration: none;
+    color: #9b9b9b;
 }
 
 nav {
@@ -138,7 +147,7 @@ nav {
     border-radius: 10px;
     border: none;
     background-color: #737c88;
-    
+
     margin: 50px 0;
     width: 100%;
     padding: 5px;
@@ -179,7 +188,7 @@ nav {
 .content-card-product:hover {
     filter: brightness(100%);
 
-    
+
     transform: scale(1.04);
 }
 
@@ -196,6 +205,7 @@ nav {
     z-index: -1;
     filter: blur(20px);
 }
+
 .carousel img {
     object-fit: cover;
 }
