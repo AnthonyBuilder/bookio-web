@@ -13,15 +13,15 @@
         }
         
         public function getUserDB($email_p, $pass_p) {
-            
             $sql = "SELECT nome_user, email_u, pass_u FROM {$this->table} WHERE email_u = :email AND pass_u = :pass";
             
             $current_user = $this->connection->prepare($sql);
             $current_user->bindParam(':email', $email_p);
-            $current_user->bindParam(':pass', $pass_p);
+            $current_user->bindParam(':pass', md5($pass_p));
+
             $current_user->execute();
 
-            return $current_user->fetch();            
+            return $current_user->fetch(); 
         }
 
         public function setUserDB($name_user, $email_user, $pass_user){
@@ -29,10 +29,11 @@
             
             $send_user = $this->connection->prepare($sql);
 
-            $send_user->bindValue(':n_user', $name_user);
+            
             $send_user->bindValue(':e_user', $email_user);
-            $send_user->bindValue(':p_user', md5($pass_user)); //PASSWORD com Criptografia MD5
-           
-            $current_user->execute();
+            $send_user->bindValue(':p_user', md5($pass_user)); 
+            $send_user->bindValue(':n_user', $name_user);
+
+            $send_user->execute();
         }
     }

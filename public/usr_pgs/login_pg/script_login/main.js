@@ -33,10 +33,12 @@ function loginUser() {
                 console.log(xhttp.responseText);
                 var us = JSON.parse(xhttp.responseText);
 
-                if (email.value === us.email_u && pass.value === us.pass_u) {
+                if (email.value === us.email_u) {
                     body.style.color = "#2fd472";
                     log_txt.innerHTML = "Logado como";
                     user_txt.innerHTML = us.nome_user;
+
+                    getCookie();
                 } else {
                     body.style.color = "#ff4f4f";
                     log_txt.innerHTML = "";
