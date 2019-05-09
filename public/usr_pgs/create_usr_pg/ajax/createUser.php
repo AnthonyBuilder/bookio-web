@@ -3,10 +3,11 @@
 
     use app\models\User;
 
-    $user_login = new User;
+    $user_create = new User;
 
-    $email_p = filter_input(INPUT_POST, 'email_login', FILTER_SANITIZE_STRING);
-    $pass_p = filter_input(INPUT_POST, 'pass_login', FILTER_SANITIZE_STRING);
+    $name_fin = filter_input(INPUT_POST, 'nome_cr', FILTER_SANITIZE_STRING);
+    $email_fin = filter_input(INPUT_POST, 'email_cr', FILTER_SANITIZE_STRING);
+    $pass_fin = filter_input(INPUT_POST, 'pass_cr', FILTER_SANITIZE_STRING);
 
-    echo json_encode($user_login->getUserDB($email_p, $pass_p));
+    $user_create->setUserDB($name_fin, $email_fin, $pass_fin);
 ?>

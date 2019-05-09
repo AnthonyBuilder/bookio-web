@@ -33,12 +33,12 @@
             </li>
             <li>
                 <div class="nav-itm">
-                    <a href="/public/usr_pgs/login_pg/index.php"><h2>Login</h2></a>
+                    <a href="/bookio-web/public/usr_pgs/login_pg/index.php"><h2>Login</h2></a>
                 </div>
             </li>
             <li>
                 <div class="nav-itm">
-                    <a href="/public/usr_pgs/create_usr_pg/index.php"><h2>Cadastrar</h2></a>
+                    <a href="/bookio-web/public/usr_pgs/create_usr_pg/index.php"><h2>Cadastrar</h2></a>
                 </div>
             </li>
         </ul>

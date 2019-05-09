@@ -22,10 +22,10 @@
             <input type="email" name="email_cr" id="email-cadastro" placeholder="Email">
             <input type="password" name="pass_cr" id="pass-cadastro" placeholder="Senha"  minlength="8">
         </form>
-        <button class="btn">Cadastrar</button>
+        <button class="btn" onclick="createUser()">Cadastrar</button>
     </div>
 
 </body>
 <script src="script_create/main.js"></script>
-<script src="../assets/script/xhttp.js"></script>
+<script src="../../assets/script/xhttp.js"></script>
 </html>

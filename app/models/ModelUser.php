@@ -29,10 +29,10 @@
             
             $send_user = $this->connection->prepare($sql);
 
-            $current_user->bindValue(':e_user', $email_user);
-            $current_user->bindValue(':p_user', md5($pass_user)); //PASSWORD com Criptografia MD5
-            $current_user->bindValue(':n_user', $name_user);
-
+            $send_user->bindValue(':n_user', $name_user);
+            $send_user->bindValue(':e_user', $email_user);
+            $send_user->bindValue(':p_user', md5($pass_user)); //PASSWORD com Criptografia MD5
+           
             $current_user->execute();
         }
     }
